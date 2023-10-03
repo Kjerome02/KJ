@@ -1,0 +1,66 @@
+
+*{box-sizing:border-box;}
+        body {
+            background-image: url(ymir.jpg);
+            background-size: cover;
+            background-size: cover;
+            background-color: #69080800;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+            flex-direction: column;
+        }
+
+   
+
+        input {
+            background-color: #444;
+            color: #ffffff;
+            border: 1px solid #330693;
+            padding: 8px 12px;
+            margin: 4px;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        input[type="number"] {
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .container {
+            background-size: cover;
+            border: 1px solid #7a141400;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+button {
+    background-color: #ffffff; /* Deep blue color */
+    color: #851e1e;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 100%;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+    background-color: #0071eb; /* Darker blue on hover */
+}
